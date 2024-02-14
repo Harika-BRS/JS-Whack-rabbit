@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="188.999" height="22" viewBox="0 0 188.999 22">
+  <g id="Group_348" data-name="Group 348" transform="translate(-451 -728)">
+    <g id="Group_347" data-name="Group 347" transform="translate(484.487 731.045)">
+      <text id="Build" transform="translate(24.513 11.955)" fill="#fff" font-size="11" font-family="Futura-Medium, Futura" font-weight="500" letter-spacing="0.33em"><tspan x="-22.629" y="0">BUILD</tspan></text>
+      <text id="Rise" transform="translate(78.513 11.955)" fill="#fff" font-size="11" font-family="Futura-Medium, Futura" font-weight="500" letter-spacing="0.33em"><tspan x="-16.695" y="0">RISE</tspan></text>
+      <text id="Shine" transform="translate(131.513 11.955)" fill="#fff" font-size="11" font-family="Futura-Medium, Futura" font-weight="500" letter-spacing="0.33em"><tspan x="-23.875" y="0">SHINE</tspan></text>
+    </g>
+    <g id="Group_346" data-name="Group 346" transform="translate(450.259 727.259)">
+      <path id="Polygon_11" data-name="Polygon 11" d="M6,0l6,11H0Z" transform="translate(5.741 6.741)" fill="#fff"/>
+      <path id="Polygon_10" data-name="Polygon 10" d="M6,0l6,11H0Z" transform="translate(5.741 5.741)" fill="#fff" opacity="0.7"/>
+      <path id="Path_612" data-name="Path 612" d="M1.266,0A1.792,1.792,0,0,0,1.7.77a2.046,2.046,0,0,0,.829.406,2.046,2.046,0,0,0-.829.406,1.792,1.792,0,0,0-.437.77,1.792,1.792,0,0,0-.437-.77A2.046,2.046,0,0,0,0,1.176,2.046,2.046,0,0,0,.829.77,1.792,1.792,0,0,0,1.266,0Z" transform="translate(12.326 4.04)" fill="#fff"/>
+      <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(0.741 0.741)" fill="none" stroke="#fff" stroke-width="1">
+        <circle cx="11" cy="11" r="11" stroke="none"/>
+        <circle cx="11" cy="11" r="10.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

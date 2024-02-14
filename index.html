@@ -1,0 +1,122 @@
+<!--
+     Author: Build Rise Shine with Nyros (BRS) 
+     Created: 2023
+     Library / Component: Whack' a rabbit'
+     Description: Main page for the app
+     (c) Copyright by BRS with Nyros. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Whack' a rabbit'</title>
+    <link rel="icon" href="http://203.193.173.125/buildriseshine/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mole.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+          <nav class="courseTitle">
+            <button class="navbar-brand border-0">
+              <img
+                src="assets/img/Screenshot from 2024-02-14 13-59-41.png"
+                alt="logo"
+              />
+            </button>
+          </nav>
+          <div class="flex-grow-1">
+            <div class="ReactTitle ps-3 d-flex align-items-center">
+              <img src="assets/img/logo-javascript@2x.png" alt="logo" />
+              <h3 class="mb-0">JS Basic Apps</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+                <h4>Whack' a rabbit'</h4>
+                <p class="pb-0 mb-3 text-start">
+                  Purpose: Fun time again!. Score by hitting the rabbit out of
+                  its hole.
+                </p>
+                <p class="pb-0 mt-0 text-start">
+                  <a
+                    href="https://github.com/Harika-BRS/JS-Whack-rabbit.git"
+                    target="_blank"
+                    >Git Repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h5 class="text-center mb-4 score fw-bolder">Score 0</h5>
+      <h5 id="timer" class="text-center mb-4 timer fw-bolder"></h5>
+      <div class="text-center mb-2">
+        <button id="gameStartBtn" class="btn btn-primary" onClick="startGame()">
+          Start!
+        </button>
+      </div>
+
+      <div class="game">
+        <div class="hole hole1">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole2">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole3">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole4">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole5">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole6">
+          <div class="mole"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-between px-5">
+        <div>ALL RIGHTS RESERVED WHACK THE RABBIT</div>
+        <div>
+          <button
+            onclick="setTheme('#69290b')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#2c8311')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#daaf59')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+        <div>
+          <img
+            src="assets/img/Screenshot from 2024-02-14 14-01-50.png"
+            alt="logo"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
